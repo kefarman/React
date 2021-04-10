@@ -3,15 +3,14 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 import Directory from './components/DirectoryComponent';
 import './App.css';
 import { CAMPSITES } from './shared/campsites';
-
+import CampsiteInfoComponent from './components/CampsiteInfoComponent';
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            campsites: CAMPSITES
+            campsites: CAMPSITES,
         };
-    }
-
+    }    
     render() {
         return (
             <div className="App">
@@ -21,9 +20,9 @@ class App extends Component {
                 </div>
                 </Navbar>
                 <Directory campsites={this.state.campsites} />
+                <CampsiteInfoComponent comments={this.state.comments} />
             </div>
         );
     }
 }
-
 export default App;
