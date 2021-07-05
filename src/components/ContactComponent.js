@@ -79,6 +79,7 @@ class Contact extends Component {
                                     <Control.text model=".firstName" id="firstName" name="firstName"
                                         placeholder="First Name"
                                         className="form-control"
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
@@ -87,6 +88,7 @@ class Contact extends Component {
                                     <Control.text model=".lastName" id="lastName" name="lastName"
                                         placeholder="Last Name"
                                         className="form-control"
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
@@ -95,6 +97,7 @@ class Contact extends Component {
                                     <Control.text model=".phoneNum" id="phoneNum" name="phoneNum"
                                         placeholder="Phone number"
                                         className="form-control"
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
@@ -103,6 +106,7 @@ class Contact extends Component {
                                     <Control.text model=".email" id="email" name="email"
                                         placeholder="Email"
                                         className="form-control"
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
