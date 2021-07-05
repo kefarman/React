@@ -19,7 +19,8 @@ const mapStateToProps = state => {
     };
 };
 
-
+class Main extends Component {
+    render() {
         const HomePage = () => {
             return (
                 <Home
@@ -53,5 +54,6 @@ const mapStateToProps = state => {
         );
     }
 }
+
 
 export default withRouter(connect(mapStateToProps)(Main));
